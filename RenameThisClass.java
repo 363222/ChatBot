@@ -10,13 +10,16 @@ public class RenameThisClass
     public static void main(String[] args) {
         int i=10;
         
-        float f=15;
+        float f=20;
         
-        int f=i+f
+        f=i+f;
         
         boolean flag = true;
         
-        System.out.println();
+        
+        while (i<10)
+        System.out.println(i++);
+        System.out.println(f);
         
         
     }
