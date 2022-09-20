@@ -12,13 +12,13 @@ public class RenameThisClass
         
         float f=20;
         
-        f=i+f;
+        f += i;
         
         boolean flag = true;
-        
+        flag = !flag;
         
         while (i<10)
-        System.out.println(i++);
+        System.out.println(++i);
         System.out.println(f);
         
         
